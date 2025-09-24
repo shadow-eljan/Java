@@ -5,18 +5,18 @@ public class Random_Use {
 
         Random random = new Random();
 
-//        int number1;
-//        int number2;
-//        int number3;
-//
-//        number1 = random.nextInt(1, 10);
-//        number2 = random.nextInt(1, 10);
-//        number3 = random.nextInt(1, 10);
-//
-//        System.out.println(number1);
-//        System.out.println(number2);
-//        System.out.println(number3);
-//
+        int number1;
+        int number2;
+        int number3;
+
+        number1 = random.nextInt(1, 10);
+        number2 = random.nextInt(1, 10);
+        number3 = random.nextInt(1, 10);
+
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
+
         boolean isHeads;
 
         isHeads = random.nextBoolean();
