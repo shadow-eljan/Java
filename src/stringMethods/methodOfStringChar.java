@@ -1,3 +1,5 @@
+package stringMethods;
+
 public class methodOfStringChar {
     public static void main(String[] args) {
 
