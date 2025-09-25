@@ -36,5 +36,6 @@ public class conditionWithinCondition {
             price*=1;
         }
         System.out.println("Your final price is: " + price);
+        scanner.close();
     }
 }

@@ -24,7 +24,7 @@ public class subString {
         }else{
             System.out.println("Email must contain @ char.");
         }
-
+        scanner.close();
 
     }
 }
