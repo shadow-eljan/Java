@@ -12,6 +12,7 @@ public class shoppingCartprogram {
         int quantity;
         char currency;
         double total;
+
         System.out.print("What would you like to buy? ");
         item = sc.nextLine();
 
