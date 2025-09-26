@@ -28,10 +28,10 @@ public class simpleCalculator {
 
 
         switch(choice){
-            case 1 -> System.out.println(input1 + input2);
-            case 2 -> System.out.println(input1 - input2);
-            case 3 -> System.out.println(input1 / input2);
-            case 4 -> System.out.println(input1 * input2);
+            case 1 -> System.out.printf("Sum of two numbers: %.2f" , input1 + input2);
+            case 2 -> System.out.printf("Subtraction of two numbers: %.2f" , input1 - input2);
+            case 3 -> System.out.printf("Division of two numbers: %.2f", input1 / input2);
+            case 4 -> System.out.printf("Multiplication of two numbers: %.2f" , input1 * input2);
             default -> System.out.println("Invalid choice");
         }
 
