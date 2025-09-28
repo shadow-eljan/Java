@@ -17,6 +17,7 @@ public class rockPaperScissor {
         String playAgain = "yes";
 
         while(playAgain.equalsIgnoreCase("yes")){
+
             System.out.print("\nEnter your choice (Rock, Paper, Scissor): ");
             playerChoice = scanner.nextLine().toLowerCase();
 
