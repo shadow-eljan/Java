@@ -59,6 +59,7 @@ public class slotMachine {
         System.out.println("Your final balance is: "+ balance);
         scanner.close();
     }
+
     static String[] spinRow(){
 
         String[] symbols = {"🍇", "🍈", "🍉", "🍌", "🍍", "🍎"};
@@ -66,15 +67,16 @@ public class slotMachine {
 
         for(int i=0; i < 3; i++){
             row[i] = symbols[random.nextInt(symbols.length)];
-
         }
         return row;
     }
+
     static void printRow(String[] row){
         System.out.println("\n💫💫💫💫💫💫💫💫💫💫");
         System.out.println(" "+ String.join(" | ", row));
         System.out.println("💫💫💫💫💫💫💫💫💫💫");
     }
+
     static int getPayout(String[] row, int bet){
         if(row[0].equals(row[1]) &&  row[1].equals(row[2])){
             return switch(row[1]){
@@ -85,7 +87,6 @@ public class slotMachine {
                 case "🍍" -> bet * 8;
                 case "🍎" -> bet * 10;
                 default -> 0;
-
             };
         } else if (row[0].equals(row[1]) || row[0].equals(row[2]) || row[1].equals(row[2])) {
             return switch(row[0]) {
