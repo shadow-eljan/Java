@@ -16,11 +16,10 @@ public class enhancedSwitches {
             case "Tuesday" -> System.out.println("Today is Tuesday");
             case "Wednesday" -> System.out.println("Today is Wednesday");
             case "Thursday" -> System.out.println("Today is Thursday");
-            case "Friday" -> System.out.println("Today is Fridayday");
+            case "Friday" -> System.out.println("Today is Friday");
             case "Saturday" -> System.out.println("Today is Saturday");
             case "Sunday" -> System.out.println("Today is Sunday");
             default -> System.out.println("No such day found. 🤣🤣");
-
         }
         scanner.close();
     }
