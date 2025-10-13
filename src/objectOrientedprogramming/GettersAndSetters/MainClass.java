@@ -9,7 +9,7 @@ public class MainClass {
 
         Car car = new Car("Charger", "Yellow" , 10);
 
-        car.setPrice(0);
+        car.setPrice(100);
         car.setColor("Blue");
 
         System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());

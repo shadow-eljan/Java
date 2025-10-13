@@ -32,7 +32,6 @@ public class MainClass {
             System.out.println("You should enter a proper number");
         } catch (Exception a) {
             // Safety Net
-            System.out.println(a);
             System.out.println("Something went wrong.");
 
         } finally {
