@@ -8,6 +8,7 @@ public class myRunnableTwo implements Runnable{
         this.text = text;
     }
 
+
     @Override
     public void run(){
         for (int i=1; i<=5; i++){
