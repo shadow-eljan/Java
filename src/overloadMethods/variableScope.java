@@ -9,6 +9,8 @@ public class variableScope {
         int x =1; //LOCAL
         random();
 
+
+
     }
     static void random(){
         int x = 2; // LOCAL
