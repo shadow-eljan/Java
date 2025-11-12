@@ -23,6 +23,8 @@ public class Union {
         numSetTwo.add(3);
         numSetTwo.add(4);
         numSetTwo.add(5);
+        numSetTwo.add(6);
+        numSetTwo.add(7);
 
 
 
