@@ -3,7 +3,7 @@ package Generics;
 public class practise1<T> {
 
         // create a generics method
-        public <T> void display(T data) {
+        public void display(T data) {
 
             System.out.println("Data: " + data);
         }
